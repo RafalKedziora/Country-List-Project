@@ -20,6 +20,8 @@ C:\Users\rawci\source\repos\CountryListProjectAPI\CountryListProjectAPI\obj\Rele
 C:\Users\rawci\source\repos\CountryListProjectAPI\CountryListProjectAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.Tokens.dll
 C:\Users\rawci\source\repos\CountryListProjectAPI\CountryListProjectAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
 C:\Users\rawci\source\repos\CountryListProjectAPI\CountryListProjectAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.Win32.SystemEvents.dll
+C:\Users\rawci\source\repos\CountryListProjectAPI\CountryListProjectAPI\obj\Release\net6.0\PubTmp\Out\MySqlConnector.dll
+C:\Users\rawci\source\repos\CountryListProjectAPI\CountryListProjectAPI\obj\Release\net6.0\PubTmp\Out\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\rawci\source\repos\CountryListProjectAPI\CountryListProjectAPI\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Annotations.dll
 C:\Users\rawci\source\repos\CountryListProjectAPI\CountryListProjectAPI\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\rawci\source\repos\CountryListProjectAPI\CountryListProjectAPI\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll

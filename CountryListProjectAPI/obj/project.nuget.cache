@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9S4AvpcrL1fTvn7Wq6EqCOM4BQC/VdL5PYiJrtm00bMq0Yfbp6W1EjNUKI5/GPL2qyOdaX8Md/7U3yxp7SGCxA==",
+  "dgSpecHash": "pKrAEBJ47tCkKpKcq8ehXEoZajsz+zcpJkzAxg79XaHjtqgRM6oRAv18NRonryN2du7gHdNgLSZU+C3mOFCLJw==",
   "success": true,
   "projectFilePath": "C:\\Users\\rawci\\source\\repos\\CountryListProjectAPI\\CountryListProjectAPI\\CountryListProjectAPI.csproj",
   "expectedPackageFiles": [
@@ -37,6 +37,8 @@
     "C:\\Users\\rawci\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\rawci\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\rawci\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\rawci\\.nuget\\packages\\mysqlconnector\\2.1.2\\mysqlconnector.2.1.2.nupkg.sha512",
+    "C:\\Users\\rawci\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\6.0.1\\pomelo.entityframeworkcore.mysql.6.0.1.nupkg.sha512",
     "C:\\Users\\rawci\\.nuget\\packages\\swashbuckle.aspnetcore\\6.3.0\\swashbuckle.aspnetcore.6.3.0.nupkg.sha512",
     "C:\\Users\\rawci\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\6.3.0\\swashbuckle.aspnetcore.annotations.6.3.0.nupkg.sha512",
     "C:\\Users\\rawci\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.3.0\\swashbuckle.aspnetcore.swagger.6.3.0.nupkg.sha512",

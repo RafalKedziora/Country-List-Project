@@ -62,3 +62,5 @@ C:\Users\rawci\source\repos\CountryListProjectAPI\CountryListProjectAPI\obj\Rele
 C:\Users\rawci\source\repos\CountryListProjectAPI\CountryListProjectAPI\obj\Release\net6.0\CountryListProjectAPI.pdb
 C:\Users\rawci\source\repos\CountryListProjectAPI\CountryListProjectAPI\obj\Release\net6.0\CountryListProjectAPI.genruntimeconfig.cache
 C:\Users\rawci\source\repos\CountryListProjectAPI\CountryListProjectAPI\obj\Release\net6.0\ref\CountryListProjectAPI.dll
+C:\Users\rawci\source\repos\CountryListProjectAPI\CountryListProjectAPI\bin\Release\net6.0\MySqlConnector.dll
+C:\Users\rawci\source\repos\CountryListProjectAPI\CountryListProjectAPI\bin\Release\net6.0\Pomelo.EntityFrameworkCore.MySql.dll

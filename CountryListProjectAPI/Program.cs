@@ -16,8 +16,22 @@ builder.Services.AddScoped<IValidator<UpdateGraphRouteDto>, UpdateGraphRouteDtoV
 #endregion
 
 builder.Services.AddSingleton(AutoMapperConfig.Initialize());
+
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(
+        optBuilder =>
+        {
+            optBuilder.WithOrigins("https://pwi.netlify.app", "https://rafalkedziora.github.io/", "http://localhost:8080/")
+                .AllowAnyMethod()
+                .AllowAnyHeader()
+                .AllowCredentials();
+        });
+});
+
+var connectionString = builder.Configuration.GetConnectionString("CountriesDB");
 builder.Services.AddDbContext<CountryContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("CountriesDB")));
+    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 builder.Services.AddTransient<DataSeeder>();
 
 builder.Services.AddEndpointsApiExplorer();
@@ -48,6 +62,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors();
 
 app.UseAuthorization();
 

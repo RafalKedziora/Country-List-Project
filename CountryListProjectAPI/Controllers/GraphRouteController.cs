@@ -1,6 +1,6 @@
 ﻿namespace CountryListProjectAPI.Controllers
 {
-    [Route("")]
+    [Route("api/[controller]")]
     [ApiController]
     public class GraphRouteController : ControllerBase
     {
@@ -19,7 +19,7 @@
         }
 
         [SwaggerOperation(Summary = "Retrieves a specific Graph Route by id")]        
-        [HttpGet("graph/{id}")]
+        [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
             var graphRoute = _graphRouteService.GetGraphRouteById(id);
